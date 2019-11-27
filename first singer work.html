@@ -12,43 +12,11 @@
             font-size: 17px;
             text-align: center;
         }
-        div#d1{
-            background-color:cornflowerblue;
-            left: 0.5%;
-            top: 30%;
-        }
-        div#d2{
-            background-color: aquamarine;
-            left:0.5%;
-            top: 45%;
-        }
-        div#d3{
-            background-color:rgb(235, 143, 107);
-            left: 0.5%;
-            top: 60%;
-        }
-        div#d4{
-            background-color:rgb(152, 102, 218);
-            left: 0.5%;
-            top: 75%;
-        }
-        div#d5{
-            background-color: rgb(122, 165, 82);
-            left:0.5%;
-            top: 90%;
-        }
         </style>
     </head>
-    <body style="background-color:wheat">
-        <h1 style="text-align:center;font-style: italic">Hello Everybody!<br/>Welcome To <br/><span style="font-style: normal;font-size:65px;">老钱的博客</span><br/></h1>
+    <body>
+        <h1 style="text-align:center;font-style: italic">Hello Everybody!<br/>Welcome To <br/><span style="font-style: normal;font-size:65px;">卷积——信号大作业</span><br/></h1>
         <hr/>
         <hr/>
-        <p>
-            <div id="d1"><a href="信号与系统.html">Signals and Systems<br/>（信号与系统）</a></div>
-            <div id="d2"><a href="模拟电子技术基础.html">Simulation Electronic technology Foundation<br/>（模拟电子技术基础）</a></div>
-            <div id="d3"><a href="大学英语.html">College English<br/>（大学英语）</a></div>
-            <div id="d4"><a href="大学物理.html">College Physics<br/>（大学物理）</a></div>
-            <div id="d5"><a href="概率论.html">Probability And Statistics<br/>（概率论与数理统计）</a></div>
-        </p>
     </body>
 </html>
