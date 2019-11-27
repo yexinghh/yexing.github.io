@@ -18,5 +18,7 @@
         <h1 style="text-align:center;font-style: italic">Hello Everybody!<br/>Welcome To <br/><span style="font-style: normal;font-size:65px;">卷积——信号大作业</span><br/></h1>
         <hr/>
         <hr/>
+        <P>小组组成部分<P>
+            <P>陈子逸、周师琦、赵凇靖<P>
     </body>
 </html>
