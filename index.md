@@ -15,10 +15,13 @@
         </style>
     </head>
     <body>
-        <h1 style="text-align:center;font-style: italic">Hello Everybody!<br/>Welcome To <br/><span style="font-style: normal;font-size:65px;">卷积——信号大作业</span><br/></h1>
+        <h1 style="text-align:center;font-style: italic">Hello Everybody!<br/>
+            Welcome To <br/>
+            <span style="font-style: normal;font-size:65px;">信号与系统大作业</span><br/>
+        </h1>
         <hr/>
         <hr/>
-        <P>小组组成部分<P>
-            <P>陈子逸、周师琦、赵凇靖<P>
+            <h2 style="color:yellowgreen">选题：卷积的实现过程</h2>
+            <p>通过研究连续卷积和离散卷积的计算过程，并在此基础上利用Python和Qt将卷积的计算过程用动画的形式加以展示。</p>
     </body>
 </html>
