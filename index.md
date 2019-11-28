@@ -15,9 +15,7 @@
         </style>
     </head>
     <body>
-        <h1 style="text-align:center;font-style: italic">Hello Everybody!<br/>
-            Welcome To <br/>
-            <span style="font-style: normal;font-size:65px;">信号与系统大作业</span><br/>
+            <h1 style="text-align:center;font-style: normal;font-size:65px;">信号与系统大作业</span><br/>
         </h1>
         <hr/>
         <hr/>
