@@ -1,51 +1,328 @@
-<html>
+<!doctype html>
+
+<html lang="en">
+
     <head>
-        <title>Hello Everybody!</title>
-        <style type="text/css">
-        div{
-            position: absolute;
-            width: 230px;
-            height: 80px;
-            border:3px solid #000;
-            color: #000;
-            font-weight:bold;
-            font-size: 17px;
-            text-align: center;
-        }
-        </style>
+     <!-- META -->
+        <meta charset="utf-8">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+       
+        <!-- PAGE TITLE -->
+        <title>Polaris - One Page</title>
+       
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+       
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+       
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    
     </head>
+
+   
     <body>
-            <h1 style="text-align:center;font-style: normal;font-size:65px;">信号与系统大作业<br/>
-        </h1>
-        <hr/>
-        <hr/>
-            <h2 style="text-align:center">选题：卷积的实现过程</h2>
-            <p style="text-align:center">通过研究连续卷积和离散卷积的计算过程，并在此基础上利用Python和Qt将卷积的计算过程用动画的形式加以展示。</p>
-        <hr/>
-        <hr/>
-            <h2 style="text-align:center">小组成员</h2>
-            <p style="text-align:center">陈子逸3180432038<br/>周师琦3180432032<br/>赵凇靖3180432037</P>
-         <hr/>
-         <hr/>    
-            <h2 style="text-align:center">一.前景介绍与意义</h2>
-            <h3>卷积与本课之间的关系？</h3>
-                信号与系统是我们专业课的基础，是需要每一个电信人都要熟悉和掌握的，卷积在课本第二章学习LTI系统的时域分析里面出现，它是求解LTI系统的一般办法可以说的是想学好信号于系统学会卷积这一点很重要。<br/>
-            <h3>卷积可以做什么？</h3>
-                卷积是LTI系统普遍适用求响应的方法，也是变换域分析的基本问题。（从理论上讲）卷积方法可以解决LTI系统对任何输入信号的响应。<br/>
+    
+       
+       
+        <!-- PRELOADER -->
+        <div class="preloader">
+           
+            <div class="spinner"></div>
+            
+        </div>
+        <!-- /PRELOADER -->
+        
+        
+        
+        <!-- NAVIGATION -->
+        <nav class="navigation-main">
+
+
+            <!-- CONTAINER FLUID -->
+            <div class="container-fluid">
+
+
+                <!-- NAVIGATION HEADER -->
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar"><i class="fa fa-bars" aria-hidden="true"></i></button>
+
+                </div>
+                <!-- /NAVIGATION HEADER -->
+
+
+                <!-- NAVBAR -->
+                <div id="navbar" class="navbar-collapse collapse">
+
+
+                    <!-- MENU ITEMS LIST -->
+                    <ul class="navigation-items nav navbar-nav navbar-right">
+
+
+                        <li class="current"><a href="#intro"></a></li>
+                        <li><a href="#about">选题</a></li>
+                        <li><a href="#service">背景、原理/a></li>
+                        <li><a href="#work">动画实现</a></li>
+                        <li><a href="#clients">总结</a></li>
+
+                    </ul>
+                    <!-- /MENU ITEMS LIST -->
+
+
+                </div>
+                <!-- /NAVBAR -->
+
+
+            </div>
+            <!-- /CONTAINER FLUID -->
+
+
+        </nav>
+        <!-- /NAVIGATION -->
+        
+
+
+        <!-- INTRO -->
+        <section id="intro">
+
+
+            <!-- CONTAINER MID -->
+            <div class="container-mid text-center">
+
+
+                <!-- ANIMATION CONTAINER -->
+                <div class="animation-container animation-fade-down" data-animation-delay="0">
+
+                    <h1>信号与系统大作业</h1>
+                    <h4>by 陈子逸、周师琦、赵凇靖</h4>
+
+                </div>
+                <!-- /ANIMATION CONTAINER -->
+
+
+                <!-- ANIMATION CONTAINER -->
+                <div class="animation-container animation-fade-up" data-animation-delay="300">
+
+                    <p class="subline">Learn More</p>
+                    <a href="#about" class="scroll-down smooth-scroll"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></a>
+
+                </div>
+                <!-- /ANIMATION CONTAINER -->
+
+
+            </div>
+            <!-- /CONTAINER MID -->
+
+
+        </section>
+        <!-- /INTRO -->
+
+
+       
+        <!-- ABOUT -->
+        <section id="about" class="white">
+        
+        
+            <!-- CONTAINER FLUID -->
+            <div class="container-fluid text-center">
+
+
+                <h3 class="headline scroll-animated-from-bottom">选题：卷积的实现过程</h3>
+
+                <p class="subline scroll-animated-from-bottom">通过研究连续卷积和离散卷积的计算过程，并在此基础上利用Python和Qt将卷积的计算过程用动画的形式加以展示。</p>
+
+
+
+
+            </div>
+            <!-- /CONTAINER FLUID -->
+
+
+        </section>
+        <!-- /ABOUT -->
+        
+        
+        
+        <!-- SERVICE -->
+        <section id="service">
+        
+        
+            <!-- CONTAINER FLUID -->
+            <div class="container-fluid text-center">
+
+
+                <h3 class="headline scroll-animated-from-bottom">一．前景介绍与意义</h3>
+
+                <p class="subline scroll-animated-from-bottom"><strong>卷积与本课之间的关系？</strong>
+                <br>信号与系统是我们专业课的基础，是需要每一个电信人都要熟悉和掌握的，卷积在课本第二章学习LTI系统的时域分析里面出现，它是求解LTI系统的一般办法可以说的是想学好信号于系统学会卷积这一点很重要。
+                <br> <strong>卷积可以做什么？</strong>
+                <br>是LTI系统普遍适用求响应的方法，也是变换域分析的基本问题。（从理论上讲）卷积方法可以解决LTI系统对任何输入信号的响应。
                 近代，随着信号与系统理论研究的深入及计算机技术的高度发展，卷积方法在现代地震勘探、矿物勘探、超声诊断、光学成像、y系统辨识及其他诸多信号处理领域中得到了广泛的应用。
                 比如在地震勘探中的应用地震勘探中,在地表激发点激发的地震子波(seismic wavelet)向地下传播,当遇到地下波阻抗界面时,一部分能量就会作为反射地震波向上反射回地表,被地面的传感器接收,随着地震波不断向下传播、反射、接收,就会记录一系列时间延迟的地震波(大地滤波后的地震子波),称为地震记录 .这一过程或地震记录可以用数学模型描述.如果假设地下介质为古皮奥(Goupilaud)的水平层状介质模型,子波为雷克(Ricker)子波,地震记录可以看作是由震源子波与地下反射率函数、多次反射、仪器等诸多因素的相褶
-                积的过程,令x(t),w(t)和n(t)分别表示地震记录,地震子波及噪声,褶积过程数学模型描述为 ：长期以来,褶积模型广泛用于描述地震信号.顾名思义,反褶积就是褶积的逆过程,从地震记录x(t)中恢复出反射率函数r(t) .
-            </P>
-         <hr/>
-         <hr/> 
-         <h2 style="text-align:center">二．如何实现卷积</h2> 
-         <h3>1.卷积积分：用于LTI系统求解对激励信号的响应</h3>
-         <hr/>
-         <hr/> 
-         <h2 style="text-align:center">三.实践及动画的演示</h2> 
-         <hr/>
-         <hr/>
-         <h2 style="text-align:center">四.感谢总结与不足</h2> 
-         <p style="text-align:center">ending</p>  
-    </body>
+                积的过程,令x(t),w(t)和n(t)分别表示地震记录,地震子波及噪声,褶积过程数学模型描述为 ：
+                长期以来,褶积模型广泛用于描述地震信号.顾名思义,反褶积就是褶积的逆过程,从地震记录x(t)中恢复出反射率函数r(t) .
+            </p>
+            <h3 class="headline scroll-animated-from-bottom">二．如何实现卷积</h3>
+            <img class="img-responsive" src="assets/img/gongshi22.png" alt="image">
+
+
+            </div>
+            <!-- /CONTAINER FLUID -->
+
+        </section>
+        <!-- /SERVICE -->
+        
+
+        
+        <!-- WORK -->
+        <section id="work" class="white">
+        
+        
+            <!-- CONTAINER FLUID -->
+            <div class="container-fluid text-center">
+
+
+                <h3 class="headline scroll-animated-from-bottom">三.实践及动画的演示</h3>
+                <p class="subline scroll-animated-from-bottom"><strong>连续信号</strong></p>
+                <img class="img src" src="assets/img/work/work11.jpg" alt="image">
+                <table><tr>
+                <td><img src="assets/img/work/wrok22.jpg" width="500" ></td>
+                <td><img src="assets/img/work/work33.jpg" width="500" ></td>
+                </tr></table>
+                <hr>
+                <p class="subline scroll-animated-from-bottom"><strong>离散信号</strong></p>
+                    <img class="img src" src="assets/img/work/work44.jpg" alt="image">
+                    <table><tr>
+                        <td><img src="assets/img/work/work55.jpg" width="500" ></td>
+                        <td><img src="assets/img/work/work66.jpg" width="500" ></td>
+                        </tr></table>
+    
+            </div>
+            <!-- /CONTAINER FLUID -->
+
+
+        </section>
+        <!-- /WORK -->
+        
+        
+        
+        <!-- CLIENTS -->
+        <section id="clients">
+        
+        
+            <!-- CONTAINER FLUID -->
+            <div class="container-fluid text-center">
+
+
+                <h3 class="headline scroll-animated-from-bottom">四．总结与不足</h3>
+                
+                
+                <!-- CLIENT FEEDBACK -->
+                <div class="client-feedback">
+                
+                    
+                    <!-- CLIENT FEEDBACK ITEM -->
+                    <div class="client-feedback-item row">
+
+
+                        <!-- COLUMN -->
+                        <div class="col-sm-3 text-left scroll-animated-from-bottom">
+
+                            <img class="img-responsive logo" src="assets/img/clients/client-1.png" alt="image">
+
+                        </div>
+                        <!-- /COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="col-sm-9 text-left scroll-animated-from-bottom">
+
+                            <p><strong>课题优点：</strong>通过对python和MATLAB的使用让我们逐渐熟悉这两大工具。在学习过程中，我们逐渐了解了卷积的背景及其应用，更重要的是感受到了编程的神秘之处。</p>
+
+                        </div>
+                        <!-- /COLUMN -->
+                    
+                    
+                    </div>
+                    <!-- /CLIENT FEEDBACK ITEM -->
+                    
+                    
+                    <!-- CLIENT FEEDBACK ITEM -->
+                    <div class="client-feedback-item row">
+
+
+                        <!-- COLUMN -->
+                        <div class="col-sm-3 text-left scroll-animated-from-bottom">
+
+                            <img class="img-responsive logo" src="assets/img/clients/client-2.png" alt="image">
+
+                        </div>
+                        <!-- /COLUMN -->
+
+
+                        <!-- COLUMN -->
+                        <div class="col-sm-9 text-left scroll-animated-from-bottom">
+
+                            <p><strong>不足之处：</strong>我们在学习过程中遇到很多很多的问题，比如vs code的环境设置，numpy和 matplotlib安装问题等等。最终问题都被一一解决。最难得一部分是python的动画展示，我们始终没办法没办法很好展示其卷积过程，希望还可以继续改进。</p>
+
+                        </div>
+                        <!-- /COLUMN -->
+                    
+                    
+                    </div>
+                    <!-- /CLIENT FEEDBACK ITEM -->
+                
+                
+                </div>
+                <!-- /CLIENT FEEDBACK -->
+
+
+            </div>
+            <!-- /CONTAINER FLUID -->
+
+
+        </section>
+        <!-- /CLIENTS -->
+        
+        
+        
+        <!-- /CONTACT -->
+        
+        
+        
+        
+        
+        
+        <!-- BACKGROUND CONTENT -->
+        <div class="background-content parallax-on">
+
+
+            <!-- BACKGROUND CONTENT INNER -->
+            <div class="background-content-inner">
+
+                <div class="background-overlay"></div>
+                <div class="background-img layer" data-depth="0.1"></div>
+
+            </div>
+            <!-- /BACKGROUND CONTENT INNER -->
+
+
+        </div>
+        <!-- /BACKGROUND CONTENT -->
+        
+        
+        
+        <!-- JAVASCRIPTS -->
+        <script type="text/javascript" src="assets/js/plugins.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+   
+   
+   
+    </body> 
+    
+    
 </html>
